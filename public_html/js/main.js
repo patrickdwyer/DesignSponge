@@ -1,0 +1,1 @@
+jQuery(function(e){e(".match-height").matchHeight(),e(".responsive_headline").fitText()});

@@ -1,0 +1,244 @@
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background-color: #fff;
+	font-family: $body-font;
+	font-weight: $regular;
+	font-size: $font-size-base;
+	color: $body-color;
+	//line-height: 1.75;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+a {
+	color: $theme-primary;
+	@include transition-all;
+
+	&:hover,
+	&:focus {
+		color: $theme-primary;
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: $heading-font;
+/*color: $heading-color;
+font-weight: 400;
+margin: 30px 0 20px 0;*/
+}
+
+h6 {
+	margin-top: 40px;
+	font-family: $secondary-font;
+	font-weight: $semibold;
+	color: rgba($brandBlackLight, 0.7);
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+	margin-top: 0;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+hr {
+	border-color: $brandBlack;
+}
+
+section {
+	padding: 30px 0px;
+
+	@media (min-width: $screen-md) {
+		padding : 60px 0;
+	}
+}
+
+blockquote {
+	position: relative;
+	margin-bottom: 24px;
+	padding: 16px 24px 12px 24px;
+	color: $brandBlack;
+	border: none;
+
+	p {
+		font-size: 22px;
+		font-weight: $semibold;
+		line-height: initial;
+	}
+
+	cite {
+		display: block;
+		color: $theme-primary;
+		font-style: normal;
+	}
+}
+
+/* -----------------------------------------
+Typography
+----------------------------------------- */
+
+.page-title {
+	margin-bottom: 80px;
+	font-size: 40px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 32px;
+}
+
+h2 {
+	font-size: 22px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+h4 {
+	font-size: 22px;
+}
+
+h5 {
+	font-size: 18px;
+}
+
+/* -----------------------------------------
+Misc
+----------------------------------------- */
+
+.bg-primary {
+	background-color: $theme-primary;
+}
+
+.bg-secondary {
+	background-color: $theme-secondary;
+}
+
+.bg-dark {
+	background-color: $gray-darker;
+	color: #fff;
+}
+
+.bg-primary-light {
+	background-color: $brandSalmonLight;
+}
+
+.bg-gray2 {
+	background-color: $brandGray2;
+}
+
+.bg-gray3 {
+	background-color: $brandGray3;
+}
+
+.bg-gray6 {
+	background-color: $brandGray6;
+}
+
+.text-primary {
+	color: $theme-primary;
+}
+
+.text-secondary {
+	color: $theme-secondary;
+}
+
+.text-faded {
+	color: rgba(#fff, 0.7);
+}
+
+.btn {
+}
+
+.btn-default {
+	@include button-variant($brandBlackLight, $brandSalmonLight, $brandSalmonLight);
+	background: url(/img/star-7B7B7B.svg);
+	background-size: 31px;
+	background-repeat: repeat-x;
+	background-position: top center;
+
+	span {
+		background: $brandSalmonLight;
+		padding: 8px 10px;
+		@include transition-all;
+	}
+
+	&:hover span {
+		background-color: darken($brandSalmonLight, 7%);
+	}
+}
+
+.btn-primary {
+	@include button-variant(#fff, $theme-primary, $theme-primary);
+}
+
+.no-padding {
+	padding: 0;
+}
+
+.no-gutter > [class*='col-'] {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.form-control {
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+	color: $brandBlackLight;
+}
+
+label {
+	font-family: $heading-font;
+	font-size: 16px;
+	font-weight: $regular;
+}
+
+/* -----------------------------------------
+Extras
+----------------------------------------- */
+
+// Highlight Color Customization
+::-moz-selection {
+	color: #fff;
+	text-shadow: none;
+	background: $theme-primary;
+}
+
+::selection {
+	color: #fff;
+	text-shadow: none;
+	background: $theme-primary;
+}
+
+img::selection {
+	color: #fff;
+	background: transparent;
+}
+
+img::-moz-selection {
+	color: #fff;
+	background: transparent;
+}
+
+body {
+	webkit-tap-highlight-color: $theme-primary;
+}
