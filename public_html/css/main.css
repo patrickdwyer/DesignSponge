@@ -1223,8 +1223,8 @@ body {
     -webkit-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+    -webkit-box-shadow: -10px 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.2); }
   .sidebar-offcanvas.active {
     left: 0; } }
 
