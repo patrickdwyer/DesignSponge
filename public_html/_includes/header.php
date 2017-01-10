@@ -64,6 +64,24 @@
 						<a href="/">Community</a>
 					</li>
 				</ul>
+
+				<form class="navbar-form" role="search">
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="Search">
+						<span class="input-group-btn">
+							<button type="reset" class="btn">
+								<span class="fa fa-remove">
+									<span class="sr-only">Close</span>
+								</span>
+							</button>
+							<button type="submit" class="btn">
+								<span class="fa fa-search">
+									<span class="sr-only">Search</span>
+								</span>
+							</button>
+						</span>
+					</div>
+				</form>
 			</div>
 			<!-- /.navbar-collapse -->
 
