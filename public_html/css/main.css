@@ -495,7 +495,7 @@ body {
       font-family: "Work Sans", sans-serif;
       letter-spacing: 0.05em; }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .navbar-header {
     border-top: 1px solid rgba(186, 186, 187, 0.5);
     border-bottom: 1px solid rgba(186, 186, 187, 0.5); }
@@ -504,7 +504,7 @@ body {
   .navbar-toggle {
     float: left;
     margin-right: 0;
-    margin-left: 15px;
+    margin-left: 5px;
     border: none;
     border-radius: 0;
     font-family: "Work Sans", sans-serif;
@@ -526,9 +526,37 @@ body {
   .social-nav {
     float: right;
     position: relative;
-    top: 17px; } }
+    top: 12px; } }
 
-@media (min-width: 768px) {
+@media (max-width: 991px) {
+  .navbar-header {
+    float: none; }
+  .navbar-left, .navbar-right {
+    float: none !important; }
+  .navbar-toggle {
+    display: block; }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px; }
+  .navbar-collapse.collapse {
+    display: none !important; }
+  .navbar-nav {
+    float: none !important;
+    margin: 7.5px -15px; }
+  .navbar-nav > li {
+    float: none; }
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  .collapse.in {
+    display: block !important; }
+  .navbar-collapse.in {
+    overflow-y: auto !important; } }
+
+@media (min-width: 992px) {
   .navbar-collapse {
     padding: 0; }
   .navbar-nav {
@@ -656,7 +684,7 @@ body {
 .no-js .sb-search .sb-search-submit {
   z-index: 90; }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .navbar-collapse {
     padding-top: 0px !important; }
   .sb-search {
