@@ -1,7 +1,7 @@
 <?php include '_includes/header.php';?>
 
 	<section class="post-single post-gallery">
-		<div class="container">
+		<div class="container-fluid content-container">
 			<div class="row">
 				<div class="col-sm-8 col-md-9">
 
@@ -27,15 +27,30 @@
 							<div class="col-sm-10">
 								<figure class="post-image">
 									<img src="https://unsplash.it/800/450?image=939" class="img-responsive">
-									<figcaption><span><i class="icon-circle fa fa-angle-down"></i> 1/12</span> <a href="#">Bric's Luggage Bellagio Ultra-Light 21 Inch Carry On Spinner Trunk</a> (What a name) is pricey at $375, but it's definitely the cutest carry-on sized bag I've found on the market. It looks like a classic fabric trunk, but it's actually leather, so it's much more resistant to scuffs and stains.</figcaption>
+									<figcaption>
+										<span>
+											<a href="#"><i class="icon-circle fa fa-angle-down"></i> 1/12</a>
+										</span>
+										<a href="#">Bric's Luggage Bellagio Ultra-Light 21 Inch Carry On Spinner Trunk</a> (What a name) is pricey at $375, but it's definitely the cutest carry-on sized bag I've found on the market. It looks like a classic fabric trunk, but it's actually leather, so it's much more resistant to scuffs and stains.
+									</figcaption>
 								</figure>
 								<figure class="post-image">
 									<img src="https://unsplash.it/800/450?image=939" class="img-responsive">
-									<figcaption><span><i class="icon-circle fa fa-angle-down"></i> 2/12</span> <a href="#">Ted Baker Travel Bag</a> ($289): Another great shoulder-to-roller option for anyone who wants to be able to carry something cute that doubles as a chic backpack.</figcaption>
+									<figcaption>
+										<span>
+											<a href="#"><i class="icon-circle fa fa-angle-down"></i> 2/12</a>
+										</span>
+										<a href="#">Ted Baker Travel Bag</a> ($289): Another great shoulder-to-roller option for anyone who wants to be able to carry something cute that doubles as a chic backpack.
+									</figcaption>
 								</figure>
 								<figure class="post-image">
 									<img src="https://unsplash.it/800/450?image=939" class="img-responsive">
-									<figcaption><span><i class="icon-circle fa fa-angle-down"></i> 3/12</span> <a href="#">Rockland Luggage Sedan 19" Rolling Backpack</a> ($49.99): If you want something you can use for short trips that's cute and can go from shoulder to roller in a snap, this fun little polka dot bag is a great option.</figcaption>
+									<figcaption>
+										<span>
+											<a href="#"><i class="icon-circle fa fa-angle-down"></i> 3/12</a>
+										</span>
+										<a href="#">Rockland Luggage Sedan 19" Rolling Backpack</a> ($49.99): If you want something you can use for short trips that's cute and can go from shoulder to roller in a snap, this fun little polka dot bag is a great option.
+									</figcaption>
 								</figure>
 								<p>“The biggest challenge with an older home is the unexpected discoveries that complicate and delay a project’s timeline,” explains homeowner Lauren Daniel, summing up the lessons learned from every renovation project ever. She would know, because along with husband Chase, she just finished a six-month renovation of their first home in Austin, TX - which was built in 1960 and not updated since. They purchased with the intention of doing a complete cosmetic overhaul, but ended up fixing much more. A cramped bathroom, awkward built-in garage, and inefficient 1,200-square-foot layout needed to go. Two layers of flooring under the carpet had to come up, some of the main bathroom’s studs were rotted through, and old wallpaper that had been painted over several years ago bubbled and flaked.</p>
 								<p>The Daniels both enjoy a modern minimalist look that still feels warm and inviting, but the original state of the home was anything but. Chase, an architectural project designer and freelance photographer specializing in travel, commercial, and architectural work has a strong aesthetic point of view. Lauren also works in the design field as a manager of marketing and graphic design at an ethical fashion brand in town, so she contributed to the look of the interiors as well. Within their new white space they incorporated lots of antique and homemade furniture, plus cozy hardwood flooring throughout.</p>

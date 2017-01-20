@@ -79,7 +79,6 @@ blockquote {
 
 	p {
 		font-size: 22px;
-		font-weight: $semibold;
 		line-height: initial;
 	}
 
@@ -88,6 +87,11 @@ blockquote {
 		color: $theme-primary;
 		font-style: normal;
 	}
+}
+
+.form-control:focus {
+	-webkit-box-shadow: none;
+	box-shadow: none;
 }
 
 /* -----------------------------------------
@@ -170,19 +174,23 @@ Misc
 
 .btn-default {
 	@include button-variant($brandBlackLight, $brandSalmonLight, $brandSalmonLight);
-	background: url(/img/star-7B7B7B.svg);
-	background-size: 31px;
-	background-repeat: repeat-x;
-	background-position: top center;
 
-	span {
-		background: $brandSalmonLight;
-		padding: 8px 10px;
-		@include transition-all;
-	}
+	&.btn-fancy {
+		background: url(/img/star-7B7B7B.svg);
+		background-size: 31px;
+		background-repeat: repeat-x;
+		background-position: top center;
+		border: none;
 
-	&:hover span {
-		background-color: darken($brandSalmonLight, 7%);
+		span {
+			background: $brandSalmonLight;
+			padding: 8px 10px;
+			@include transition-all;
+		}
+
+		&:hover span {
+			background-color: darken($brandSalmonLight, 7%);
+		}
 	}
 }
 

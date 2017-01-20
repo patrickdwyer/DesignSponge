@@ -22,7 +22,7 @@
 	</header>
 
 	<section class="bg-gray2">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
 				<div class="col-sm-4">
 					<a href="#" class="card card1 match-height">
@@ -51,10 +51,10 @@
 						<figure>
 							<img src="https://unsplash.it/349/349" class="img-responsive">
 						</figure>
+						<div class="icon-circle"><i class="fa fa-clone"></i></div>
 						<div class="lower">
 							<p class="category">Interiors</p>
 							<h2 class="title">10 of Our Favorite Chicago, IL Interiors</h2>
-							<div class="icon-circle"><i class="fa fa-clone"></i></div>
 						</div>
 					</a>
 				</div>
@@ -89,7 +89,7 @@
 								<input type="text" class="form-control" placeholder="Enter your email">
 							</div>
 							<div class="form-group">
-								<button type="submit" class="btn btn-default btn-block"><span>Subscribe</span></button>
+								<button type="submit" class="btn btn-default btn-fancy btn-block"><span>Subscribe</span></button>
 							</div>
 						</form>
 					</div>
@@ -102,7 +102,7 @@
 	</section>
 
 	<section>
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
 				<div class="col-sm-5 col-sm-offset-1">
 					<a href="#" class="card card2">
@@ -131,7 +131,7 @@
 	</section>
 
 	<section class="bg-primary-light overflow-hidden">
-		<div class="container">
+		<div class="container-fluid">
 			<h3 class="section-title responsive_headline">Popular This Month</h3>
 			<div class="row">
 				<div class="col-xs-6 col-sm-3">
@@ -183,7 +183,7 @@
 	</section>
 
 	<section class="special">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row no-gutter">
 				<div class="col-sm-6">
 					<div class="left match-height">
@@ -213,7 +213,7 @@
 	</section>
 
 	<section class="bg-gray3">
-		<div class="container">
+		<div class="container-fluid">
 			<p class="category category-light mb40">Popular Interiors</p>
 			<div class="row">
 				<div class="col-sm-4">
@@ -241,9 +241,9 @@
 						<figure>
 							<img src="https://unsplash.it/349/349" class="img-responsive">
 						</figure>
+						<div class="icon-circle"><i class="fa fa-clone"></i></div>
 						<div class="lower">
 							<h2 class="title">10 of Our Favorite Chicago, IL Interiors</h2>
-							<div class="icon-circle"><i class="fa fa-clone"></i></div>
 						</div>
 					</a>
 				</div>
@@ -252,7 +252,7 @@
 	</section>
 
 	<section class="bg-primary-light overflow-hidden">
-		<div class="container">
+		<div class="container-fluid">
 			<h3 class="section-title responsive_headline">
 				Latest <span>from</span> Instagram
 				<a href="#" class="link-instagram"><i class="fa fa-instagram"></i> follow us</a>
@@ -275,7 +275,7 @@
 	</section>
 
 	<section>
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
 				<div class="col-sm-4">
 					<a href="#" class="card card4 match-height">
@@ -304,10 +304,10 @@
 						<figure>
 							<img src="https://unsplash.it/349/349" class="img-responsive">
 						</figure>
+						<div class="icon-circle"><i class="fa fa-clone"></i></div>
 						<div class="lower">
 							<p class="category">Interiors</p>
 							<h2 class="title">10 of Our Favorite Chicago, IL Interiors</h2>
-							<div class="icon-circle"><i class="fa fa-clone"></i></div>
 						</div>
 					</a>
 				</div>
@@ -342,7 +342,7 @@
 								<input type="text" class="form-control" placeholder="Enter your email">
 							</div>
 							<div class="form-group">
-								<button type="submit" class="btn btn-default btn-block"><span>Subscribe</span></button>
+								<button type="submit" class="btn btn-default btn-fancy btn-block"><span>Subscribe</span></button>
 							</div>
 						</form>
 					</div>

@@ -47,6 +47,20 @@
 		border-color: darken($border, 7%);
 	}
 
+	&.btn-fancy {
+
+		&:hover,
+		&:focus,
+		&.focus,
+		&:active,
+		&.active,
+		.open > .dropdown-toggle {
+			color: $color;
+			background-color: transparent;
+			border-color: transparent;
+		}
+	}
+
 	&:active,
 	&.active,
 	.open > .dropdown-toggle {

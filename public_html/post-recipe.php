@@ -1,7 +1,7 @@
 <?php include '_includes/header.php';?>
 
 	<section class="post-single post-recipe">
-		<div class="container content-container">
+		<div class="container-fluid content-container">
 			<div class="row">
 				<div class="col-sm-8 col-md-9">
 

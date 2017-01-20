@@ -107,13 +107,15 @@
 					</li>
 					<li>
 						<form class="language">
-							<select class="form-control">
-								<option>EN</option>
-								<option>2</option>
-								<option>3</option>
-								<option>4</option>
-								<option>5</option>
-							</select>
+							<div class="fancy-select">
+								<select class="form-control">
+									<option>EN</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+							</div>
 						</form>
 					</li>
 				</ul>

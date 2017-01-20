@@ -97,8 +97,8 @@
 										</div>
 									</div>
 									<div class="form-group">
-										<div class="col-sm-offset-2 col-sm-10">
-											<button type="submit" class="btn btn-default">Post a Comment</button>
+										<div class="col-sm-offset-2 col-sm-10  col-md-5  col-lg-4">
+											<button type="submit" class="btn btn-default btn-fancy btn-block"><span>Post a Comment</span></button>
 										</div>
 									</div>
 								</form>
