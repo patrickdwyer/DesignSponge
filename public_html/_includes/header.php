@@ -15,6 +15,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 	<link rel="stylesheet" href="/css/lib/awesome-bootstrap-checkbox.css">
 	<link rel="stylesheet" href="/css/main.css">
+	<script src="/js/lib/modernizr.custom.js"></script>
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -66,23 +67,13 @@
 					</li>
 				</ul>
 
-				<form class="navbar-form" role="search">
-					<div class="input-group">
-						<input type="text" class="form-control" placeholder="Search">
-						<span class="input-group-btn">
-							<button type="reset" class="btn">
-								<span class="fa fa-remove">
-									<span class="sr-only">Close</span>
-								</span>
-							</button>
-							<button type="submit" class="btn">
-								<span class="fa fa-search">
-									<span class="sr-only">Search</span>
-								</span>
-							</button>
-						</span>
-					</div>
-				</form>
+				<div id="sb-search" class="sb-search">
+					<form>
+						<input class="sb-search-input" placeholder="Search" type="text" value="" name="search" id="search">
+						<input class="sb-search-submit" type="submit" value="">
+						<span class="sb-icon-search"> <i class="fa fa-search"></i></span>
+					</form>
+				</div>
 			</div>
 			<!-- /.navbar-collapse -->
 

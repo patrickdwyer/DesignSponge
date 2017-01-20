@@ -39,6 +39,11 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="/js/lib/jquery.fittext.js"></script>
 	<script src="/js/lib/jquery.MatchHeight-min.js"></script>
+	<script src="/js/lib/classie.js"></script>
+	<script src="/js/lib/uisearch.js"></script>
+	<script>
+		new UISearch( document.getElementById( 'sb-search' ) );
+	</script>
 	<script src="/js/main.js"></script>
 
 </body>
